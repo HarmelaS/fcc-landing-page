@@ -1,0 +1,104 @@
+/* 
+    color palettes
+        white bg: #F9FAF8
+        green bg: #0CBC8B
+        secondary text: #626262
+
+    font-weights
+        links, secondary text: 400 
+        logo name: 700 
+        section header: 900
+
+    text 
+        company logo: 24px    h2
+        hero text: 48px       h1
+        secton title: 36px    h3
+        secondary text: 18px  p.secondary-txt
+
+
+*/
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-section {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+header {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-header,
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0cbc8b;
+}
+
+.nav-link:hover {
+  color: #626262;
+}
+
+h1 {
+  color: #0cbc8b;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #0cbc8b;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.secondary-text {
+  color: #626262;
+  font-size: 400;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 150px 50px 50px 50px;
+}
+
+.hero-text-section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-text {
+  padding: 30px 0px;
+}
+
+.offer-form {
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
