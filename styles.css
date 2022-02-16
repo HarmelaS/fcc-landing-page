@@ -112,7 +112,7 @@ h4 {
 }
 
 .hero-text-section {
-  width: 500px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -125,7 +125,7 @@ h4 {
 
 .top-text {
   padding: 10px 0px;
-  width: 450px;
+  max-width: 450px;
 }
 
 .offer-form {
@@ -141,7 +141,7 @@ label[for="email"] {
 input[type="email"] {
   width: 200px;
   height: 25px;
-  margin-top: 15px;
+  margin: 15px 0px;
   padding-left: 5px;
   border: 1px solid #626262;
   border-radius: 5px;
@@ -304,6 +304,10 @@ footer {
 
   .offer-form {
     align-self: center;
+  }
+
+  iframe {
+    width: 380px;
   }
 
   .quote-author {
